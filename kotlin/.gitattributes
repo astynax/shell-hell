@@ -1,0 +1,4 @@
+*.bat        text eol=crlf
+gradle/**/*  binary linguist-vendored
+gradlew      binary linguist-vendored
+gradlew.bat  binary linguist-vendored
