@@ -1,14 +1,8 @@
 cabal-version:      3.0
 name:               cw
+description:        A word counting tool
 version:            0.1.0.0
-license:            BSD-3-Clause
-license-file:       LICENSE
-author:             astynax
-maintainer:         astynax@users.noreply.github.com
-copyright:          astynax
-category:           System
 build-type:         Simple
-extra-doc-files:    CHANGELOG.md
 
 common warnings
     ghc-options: -Wall

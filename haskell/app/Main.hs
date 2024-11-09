@@ -1,12 +1,4 @@
-{- cabal:
-build-depends:
-  base,
-  optparse-applicative,
-  text,
-  shelly
--}
-
-{-# LANGUAGE Ghc2024 #-}
+{-# LANGUAGE GHC2024 #-}
 
 module Main where
 
