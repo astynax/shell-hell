@@ -18,11 +18,13 @@ Each program expects a single argument — string prefix. Then it should run the
 
 ## Experiments
 
-1. [Python](./python)
-2. [Rust](./rust/)
-3. [Haskell](./haskell/)
-4. [Racket](./racket/)
-5. [Kotlin](./kotlin/) (there is no native compilation yet, so this is a WIP/PoC)
-6. [Swift](./swift/) (my first real swift program 🙈)
+| Language                   | Executable size |
+|:--------------------------:|:---------------:|
+| [Python](./python)         | 10 MB 🫤        |
+| [Rust](./rust/)            | 1.1 MB ☺️        |
+| [Haskell](./haskell/)      | 4.2 MB 🫣       |
+| [Racket](./racket/)        | 56 MB 🙈        |
+| [Kotlin/Native](./kotlin/) | 2.6 MB 👌       |
+| [Swift](./swift/)          | 1.5 MB ☺️        |
 
 To be continued...
