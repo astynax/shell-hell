@@ -1,4 +1,4 @@
-.PHONY try build
+.PHONY: try build
 
 try:
 	scala-cli cw.scala -- re
