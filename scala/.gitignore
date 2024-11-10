@@ -1,0 +1,4 @@
+.scala-build/
+.bsp/
+cw
+*.build_artifacts.txt

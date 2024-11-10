@@ -26,5 +26,8 @@ Each program expects a single argument — string prefix. Then it should run the
 | [Racket](./racket/)        | 56 MB 🙈        |
 | [Kotlin/Native](./kotlin/) | 2.6 MB 👌       |
 | [Swift](./swift/)          | 1.5 MB ☺️        |
+| [Scala/GraalVM](./scala/)  | 14 MB 🫤        |
+
+*(all the sizes I checked on my machine that runs under the MacOS(amd64))*
 
 To be continued...
