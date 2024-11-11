@@ -18,15 +18,15 @@ Each program expects a single argument — string prefix. Then it should run the
 
 ## Experiments
 
-| Language                   | Executable size |
-|:--------------------------:|:---------------:|
-| [Python](./python)         | 10 MB 🫤        |
-| [Rust](./rust/)            | 1.1 MB ☺️        |
-| [Haskell](./haskell/)      | 4.2 MB 🫣       |
-| [Racket](./racket/)        | 56 MB 🙈        |
-| [Kotlin/Native](./kotlin/) | 2.6 MB 👌       |
-| [Swift](./swift/)          | 1.5 MB ☺️        |
-| [Scala/GraalVM](./scala/)  | 14 MB 🫤        |
+| Language                   | Executable size | Stripped |
+|:--------------------------:|:---------------:|:--------:|
+| [Python](./python)         | 10 MB 🫤        | breaks   |
+| [Rust](./rust/)            | 1.1 MB ☺️        | 908 KB   |
+| [Haskell](./haskell/)      | 4.2 MB 🫣       | 3.1 MB   |
+| [Racket](./racket/)        | 56 MB 🙈        | 55 MB    |
+| [Kotlin/Native](./kotlin/) | 2.6 MB 👌       | 1.9 MB   |
+| [Swift](./swift/)          | 1.5 MB ☺️        | 808 KB   |
+| [Scala/GraalVM](./scala/)  | 14 MB 🫤        | 14 MB    |
 
 *(all the sizes I checked on my machine that runs under the MacOS(amd64))*
 
