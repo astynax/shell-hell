@@ -9,5 +9,5 @@
       #:args
       (str) str)))
 
-grep pattern /usr/share/dict/words | wc -l
+grep $pattern /usr/share/dict/words | wc -l
 
