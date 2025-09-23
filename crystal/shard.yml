@@ -1,0 +1,13 @@
+name: cw
+version: 0.1.0
+
+authors:
+  - astynax <astynax@users.noreply.github.com>
+
+targets:
+  cw:
+    main: src/cw.cr
+
+crystal: '>= 1.16.1'
+
+license: MIT
