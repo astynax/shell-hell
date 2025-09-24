@@ -27,6 +27,8 @@ Each program expects a single argument — string prefix. Then it should run the
 | [Kotlin/Native](./kotlin/) | 2.6 MB 👌       | 1.9 MB   |
 | [Swift](./swift/)          | 1.5 MB ☺️        | 808 KB   |
 | [Scala/GraalVM](./scala/)  | 14 MB 🫤        | 14 MB    |
+| [Bunster](./bunster/)      | 3.3 MB 👌       | 3.2 MB   |
+| [Crystal](./crystal/)      | 2.1 MB 👌       | 1.4 MB   |
 
 *(all the sizes I checked on my machine that runs under the MacOS(amd64))*
 
