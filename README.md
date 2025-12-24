@@ -11,24 +11,31 @@ But first let's see the task's conditions.
 ### Task
 
 1. Each program should be standalone, i.e. "download and run". Ideally, a single binary executable. Here I'm testing the **packaging**.
-2. Program should have a rich Command Line Interface with inline help & stuff. Here I'm testing the expressiveness of **CLI-building libs/DSLs**.
-3. Program should be able to call external programs and let me write such code easily. Here I'm testing the expressiveness of **shell-scripting capabilities**.
+2. Each program should have a rich Command Line Interface with inline help & stuff. Here I'm testing the expressiveness of **CLI-building libs/DSLs**.
+3. Each program should be able to call external programs and let me write such code easily. Here I'm testing the expressiveness of **shell-scripting capabilities**.
 
 Each program expects a single argument — string prefix. Then it should run the pipeline `grep ^PREFIX /usr/share/dict/words | wc -l` that will count each word int dictionary that starts with the prefix. Yes, I usually can do such calculations  programmatically. But I want to be able to **compose existing tools** and wish to do it in a way as much close to bash/zsh/sh, as it possible in each language stack.
 
 ## Experiments
 
-| Language                   | Executable size | Stripped |
-|:--------------------------:|:---------------:|:--------:|
-| [Python](./python)         | 10 MB 🫤        | breaks   |
-| [Rust](./rust/)            | 1.1 MB ☺️        | 908 KB   |
-| [Haskell](./haskell/)      | 4.2 MB 🫣       | 3.1 MB   |
-| [Racket](./racket/)        | 56 MB 🙈        | 55 MB    |
-| [Kotlin/Native](./kotlin/) | 2.6 MB 👌       | 1.9 MB   |
-| [Swift](./swift/)          | 1.5 MB ☺️        | 808 KB   |
-| [Scala/GraalVM](./scala/)  | 14 MB 🫤        | 14 MB    |
-| [Bunster](./bunster/)      | 3.3 MB 👌       | 3.2 MB   |
-| [Crystal](./crystal/)      | 2.1 MB 👌       | 1.4 MB   |
+| Language                   | Executable size | Stripped | S  | C  | E  |
+|:--------------------------:|:---------------:|:--------:|:--:|:--:|:--:|
+| [Python](./python)         | 10 MB 🫤        | breaks   | 🫤 | 🏆 | 👌 |
+| [Rust](./rust/)            | 1.1 MB ☺️        | 908 KB   | 🏆 | 🏆 | 👌 |
+| [Haskell](./haskell/)      | 4.2 MB 🫣       | 3.1 MB   | 👌 | 🏆 | 👌 |
+| [Racket](./racket/)        | 56 MB 🙈        | 55 MB    | 👌 | 👌 | 🏆 |
+| [Kotlin/Native](./kotlin/) | 2.6 MB 👌       | 1.9 MB   | 👌 | 👌 | 😓 |
+| [Swift](./swift/)          | 1.5 MB ☺️        | 808 KB   | 🏆 | 👌 | 👌 |
+| [Scala/GraalVM](./scala/)  | 14 MB 🫤        | 14 MB    | 🫤 | 👌 | 👌 |
+| [Bunster](./bunster/)      | 3.3 MB 👌       | 3.2 MB   | 👌 | 🙃 | 👌 |
+| [Crystal](./crystal/)      | 2.1 MB 👌       | 1.4 MB   | 🏆 | 👌 | 🫤 |
+| [C#](.dotnet/)             | 2.9 MB 👌       | 2.9 MB   | 🫤 | 👌 | 👌 |
+
+Here
+
+S) "standalone'ability" of packed programs
+C) richness of the CLI
+E) code expressiveness *around the subprocess calls and piping*
 
 *(all the sizes I checked on my machine that runs under the MacOS(amd64))*
 
