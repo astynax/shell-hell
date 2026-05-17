@@ -18,18 +18,19 @@ Each program expects a single argument — string prefix. Then it should run the
 
 ## Experiments
 
-| Language                   | Executable size | Stripped | S  | C  | E  |
+|          Language          | Executable size | Stripped | S  | C  | E  |
 |:--------------------------:|:---------------:|:--------:|:--:|:--:|:--:|
-| [Python](./python)         | 10 MB 🫤        | breaks   | 🫤 | 🏆 | 👌 |
-| [Rust](./rust/)            | 1.1 MB ☺️        | 908 KB   | 🏆 | 🏆 | 👌 |
-| [Haskell](./haskell/)      | 4.2 MB 🫣       | 3.1 MB   | 👌 | 🏆 | 👌 |
-| [Racket](./racket/)        | 56 MB 🙈        | 55 MB    | 👌 | 👌 | 🏆 |
-| [Kotlin/Native](./kotlin/) | 2.6 MB 👌       | 1.9 MB   | 👌 | 👌 | 😓 |
-| [Swift](./swift/)          | 1.5 MB ☺️        | 808 KB   | 🏆 | 👌 | 👌 |
-| [Scala/GraalVM](./scala/)  | 14 MB 🫤        | 14 MB    | 🫤 | 👌 | 👌 |
-| [Bunster](./bunster/)      | 3.3 MB 👌       | 3.2 MB   | 👌 | 🙃 | 👌 |
-| [Crystal](./crystal/)      | 2.1 MB 👌       | 1.4 MB   | 🏆 | 👌 | 🫤 |
-| [C#](.dotnet/)             | 2.9 MB 👌       | 2.9 MB   | 🫤 | 👌 | 👌 |
+|     [Python](./python)     |     10 MB 🫤    |  breaks  | 🫤 | 🏆 | 👌 |
+|      [Rust](./rust/)       |    1.1 MB ☺️     |  908 KB  | 🏆 | 🏆 | 👌 |
+|   [Haskell](./haskell/)    |    4.2 MB 🫣    |  3.1 MB  | 👌 | 🏆 | 👌 |
+|    [Racket](./racket/)     |     56 MB 🙈    |  55 MB   | 👌 | 👌 | 🏆 |
+| [Kotlin/Native](./kotlin/) |    2.6 MB 👌    |  1.9 MB  | 👌 | 👌 | 😓 |
+|     [Swift](./swift/)      |    1.5 MB ☺️     |  808 KB  | 🏆 | 👌 | 👌 |
+| [Scala/GraalVM](./scala/)  |     14 MB 🫤    |  14 MB   | 🫤 | 👌 | 👌 |
+|   [Bunster](./bunster/)    |    3.3 MB 👌    |  3.2 MB  | 👌 | 🙃 | 👌 |
+|   [Crystal](./crystal/)    |    2.1 MB 👌    |  1.4 MB  | 🏆 | 👌 | 🫤 |
+|      [C#](./dotnet/)       |    2.9 MB 👌    |  2.9 MB  | 🫤 | 👌 | 👌 |
+|      [Odin](./odin/)       |    555 KB 👌    |  520 KB  | 🏆 | 👌 | 🫤 |
 
 Here
 
